@@ -42,7 +42,7 @@ body {
         text-align: center;
         font-size: 120px;
         color: rgba(0, 255, 157, 0.822);
-
+        padding-right: 220px;
 
     }
     h2{
@@ -80,6 +80,11 @@ p{
       
          
   }
+
+  .raro{
+    color: green;
+  }
+
   h3{
 
     text-shadow: 4%;
@@ -107,10 +112,16 @@ p{
           }
           .logo img{
             border: 10px solid black;
-            width: 60%;
+            width: 72%;
             height: auto;
         
           }
+
+          .borda{
+            width: 225px;
+          }
+
+      
           .cabecalho{
             padding: 3%;
             display: flex;
