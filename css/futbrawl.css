@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/novo\ fundo.avif);
+    background-repeat: no-repeat;
+    border:  orange;
+}
+h1{
+   
+    text-align: center;
+    font-size: 120px;
+    color: rgb(255, 255, 255, 0.767);
+    padding-right: 220px;
+    border: 6px solid #000; /* Define a largura, estilo e cor da borda */
+    padding: 3px; /* Adiciona espaço entre a borda e a imagem */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(20, 20, 20, 0.548);
+}
+h2{
+    background-color: rgba(20, 20, 20, 0.548);
+    text-shadow: 10%;
+  padding: 1%;
+  font-size: 27px;
+  color: rgb(255, 255, 255, 0.767);
+  align-items: center;
+  text-decoration-color: rgb(255, 255, 255, 0.767) ;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: var(-150px);
+  border: 6px solid #000; /* Define a largura, estilo e cor da borda */
+    padding: 3px; /* Adiciona espaço entre a borda e a imagem */
+
+
+}
+.container{
+    border: 6px solid #000; /* Define a largura, estilo e cor da borda */
+    padding: 3px; /* Adiciona espaço entre a borda e a imagem */
+}
+.container img{
+    display: inline-block;
+    max-width: 100% ;
+    text-align: center;
+    border: 6px solid #000; /* Define a largura, estilo e cor da borda */
+    padding: 3px; /* Adiciona espaço entre a borda e a imagem */
+}
+p{
+    color: rgba(255, 255, 255, 0.767);
+    background-color: rgba(20, 20, 20, 0.548);
+}
+.imagem-centralizada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #000; /* Define a largura, estilo e cor da borda */
+    padding: 2px; /* Adiciona espaço entre a borda e a imagem */
+}
+div{
+    background-color: rgba(20, 20, 20, 0.548);
+    border: 6px solid #000; /* Define a largura, estilo e cor da borda */
+    padding: 3px; /* Adiciona espaço entre a borda e a imagem */
+}
