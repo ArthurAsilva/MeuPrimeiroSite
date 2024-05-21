@@ -80,7 +80,7 @@ p{
       
          
   }
-
+.mi{color: red}
   .raro{
     color: green;
   }
@@ -116,7 +116,7 @@ p{
             height: auto;
         
           }
-
+.ep{color: blueviolet}
           .borda{
             width: 225px;
           }
@@ -152,7 +152,8 @@ h6{
     text-shadow: 4%;
     padding: 2%;
     font-size: 40PX;
-    text-decoration-color: rgb(0, 255, 136) ;
+    text-decoration-color: rg .b(0, 255, 136) ;
     font-family: "Lucida Console", "Courier New", monospace;
     font-style: var(-150px);
 }
+    .sp{color: blue}                                   .le{color: yellow}
