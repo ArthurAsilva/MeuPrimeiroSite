@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     border:  orange;
 }
+
 h1{
    
     text-align: center;
@@ -56,4 +57,8 @@ div{
     background-color: rgba(20, 20, 20, 0.548);
     border: 6px solid #000; /* Define a largura, estilo e cor da borda */
     padding: 3px; /* Adiciona espaço entre a borda e a imagem */
+}
+nav{
+    border-radius: solid black 2px;
+    background-color: rgba(43, 43, 43, 0.678);
 }

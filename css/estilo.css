@@ -6,7 +6,10 @@ body {
     }
     header {
     background-color: rgba(0, 132, 247, 0);
-    
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
      margin-left: 1%;
      margin-right: 1%;
     }
@@ -20,7 +23,11 @@ body {
     }
     main{
     background-color: rgba(255, 255, 255, 0.452);
-   
+    margin-top: 70px;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;   
     padding: 30%;
     width: 50%;
     margin-left: auto;
@@ -104,12 +111,31 @@ p{
         font-style: var(-150px);
   } 
           
-          menu ul{
-            padding: 0%;
-            margin: 0%;
-            list-style: decimal;
-
-          }
+       nav ul{
+        list-style: none;
+        margin: 0;
+      padding: 0;
+      display: flex;
+       }
+       nav ul li{
+        margin: 0 10px;
+       }
+       nav ul li a{
+        color:rgba(75, 75, 75, 0.534);
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+      }
+      nav ul li a:hover{
+        background-color: #555;
+        border-radius: 5px;
+      }
+      .menu-icon{
+        display: none;
+        font-size: 30px;
+        color: gray;
+        cursor: pointer;
+      }
           .logo img{
             border: 10px solid black;
             width: 72%;
@@ -127,6 +153,14 @@ p{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            background-color: rgba(46, 46, 46, 0.808) ;
+            border: solid black 2px;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            z-index: 1000%;
+            box-sizing: border-box;
           }
           figcaption{
             color: rgb(255, 255, 255);
@@ -158,3 +192,37 @@ h6{
 }
     .sp{color: blue}         
   .le{color: yellow}
+ 
+  @media  (max-width:768px){
+    .menu-icon{
+      display: block;
+      padding-right: 10px;
+    }
+  
+  nav ul{
+    display: none;
+    flex-direction: column;
+  width: 100%;
+background-color: black;
+position: absolute;
+top:60px;
+left:0; 
+z-index: 1000; 
+padding: 0%;
+}
+#menu-toggle :checked + .menu-icon + ul {
+display: flex;
+
+}
+nav ul li{
+  text-align: center;
+  margin:0 ;
+}
+nav ul li a{
+  padding: 15px 0;
+}
+
+nav ul li label{
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,10 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url(../img/combates.jpg);
+    background-size: cover;
+    
+    
+}
+.imagem{
+    max-width: 100%;
+}
