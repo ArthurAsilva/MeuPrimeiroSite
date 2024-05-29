@@ -7,4 +7,114 @@ body{
 }
 .imagem{
     max-width: 100%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+h1{
+    animation: trocarCores 1.2s infinite alternate; /* 5s de duração, repetindo infinitamente */
+
+        font-family: "Arial", sans-serif; /* Família da fonte */
+
+        font-size: 58px; /* Tamanho da fonte */
+
+        font-weight: bold; /* Peso da fonte */
+
+        color: #000000; /* Cor do texto */
+        
+        text-decoration: underline; /* Adiciona sublinhado */
+
+        border: 6px solid #ebebeb; /* Borda sólida */
+
+        border-radius: 10px; /* Borda arredondada */
+
+        display: inline-block; /* Permite que a largura seja definida pelo conteúdo */
+
+        text-align: center; /* Alinhamento do texto */
+        
+        font-size: 90px; /* Tamanho da fonte */;
+}
+h2 {
+    font-family: "Helvetica", sans-serif; /* Família da fonte */
+    font-size: 86px; /* Tamanho da fonte */
+    font-weight: normal; /* Peso da fonte */
+    color: #00ff0d; /* Cor do texto */
+    text-align: left; /* Alinhamento do texto */
+    text-transform: capitalize; /* Transforma a primeira letra de cada palavra em maiúscula */
+}
+@keyframes trocarCores {
+    0% {
+        color: #ff0000; 
+    }
+    50% {
+        color: #00ff00; 
+    }
+    50% {
+        color: #00ff95; 
+    }
+    50% {
+        color: #33ff00; 
+    }
+    50% {
+        color: #2d9702; 
+    }
+    60%{
+        color: aqua; 
+    }
+    10%{
+        color: gold;
+    }
+    100% {
+        color: #ff0000; 
+    }
+    70% {
+        color: black;
+    }
+    100% {
+        color: coral;
+    }
+    80%{
+        color: rgb(255, 0, 255);
+    }
+    60%{
+        color: rgba(0, 255, 128, 0.473); 
+    }
+    60%{
+        color: rgb(255, 136, 0);
+    }
+    90%{
+        color: rgb(3, 163, 129); 
+    }
+}
+.animation{
+    animation: infinite;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    height: 100vh; /* Defina a altura conforme necessário */
+}
+
+.container img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border: #000000
+    position: relative;
+    width: 300px; /* largura do contêiner */
+    height: 300px; /* altura do contêiner */;
+}
+header{
+    background-color: #757575;
+    border: 3px solid black;
+}
+main{
+    background-color: rgba(20, 20, 20, 0.548);
+    border: 6px solid #000; /* Define a largura, estilo e cor da borda */
+    padding: 1px; /* Adiciona espaço entre a borda e a imagem */
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

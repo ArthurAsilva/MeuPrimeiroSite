@@ -1,0 +1,6 @@
+document.getElementById("elemento").addEventListener("click", function() {
+    var elemento = document.getElementById("elemento");
+    // Gerar uma cor aleatória
+    var novaCor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+    elemento.style.backgroundColor = novaCor;
+});
