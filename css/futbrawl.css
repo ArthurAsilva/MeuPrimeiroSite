@@ -39,7 +39,7 @@ h2{
     display: inline-block;
     max-width: 100% ;
     text-align: center;
-    border: 6px solid #000; /* Define a largura, estilo e cor da borda */
+    border: 6px solid rgb(151, 115, 36); /* Define a largura, estilo e cor da borda */
     padding: 3px; /* Adiciona espaço entre a borda e a imagem */
 }
 p{
